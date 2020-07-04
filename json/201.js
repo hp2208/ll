@@ -1,0 +1,145 @@
+var gPlayData = {
+    "beforelink": "index.html",//そのまま
+    "nextlink":"player_002.html?202",//ファイル名は固定、後ろの数字だけ1個後のセクション
+    "jptitle":"第2課　クライアントに提案をする",//タイトルはplaylist.htmlから書き写す
+    "jp": [//日本語データ
+        "アナン：アジアンコンサルティングのアナンでございます。",
+        "　：いつも大変お世話になり、ありがとうございます。",
+        "　：では、早速ですが、御社のタイ進出について、ご提案させていただきます。",
+        "　：お手元のレジュメに沿って進めてまいります。",
+        "　：2ページをご覧ください。",
+        "　：まず、御社が買収を検討しているタイの遊園地の現状をご報告させていただきます。",
+        
+        "黒田：ご報告いたします。",
+        "　：同遊園地はここ数年、来園者数が減少し、経営は火の車です。",
+        "　：このままでは倒産しかねません。",
+        "　：現在、経営を立て直すために、スポンサーを探しています。",
+        "　：次のページをご覧ください。",
+        
+        "社長：なるほど。",
+        "　：雪をコンセプトにしたテーマパークで先方に話を持っていくというわけですね。",
+        "　：タイのテーマパークで雪を楽しむ。",
+        "　：新しくて、いいじゃないですか。",
+        
+        "アナン：ありがとうございます。",
+        "　：タイでは、日本といえば雪です。",
+        "　：調査によると、「日本で一番行きたい場所」の1位は北海道だということです。",
+        "　：そこで、弊社は、北海道らしさをアピールできる雪を楽しむテーマパークをご提案したいと考えました。",
+        "　：このテーマパークは、カップルや家族連れを対象にしています。",
+        "　：そりで遊んだり、雪だるまを作ったりして……。",
+        "　：雪を使って遊びたいだけ遊ぶことができます。",
+        "　：また、雪のドームを作り、そこで北海道の海産物を使ったすしや抹茶味のお菓子、アイスクリームなどを販売します。",
+        "　：雪遊びはもとより、さまざまな北海道の味覚も味わうことができます。",
+        
+        "社長：わくわくしますね。",
+        "　：雪の安定供給という面では、どうなんですか。",
+        "　：雪が不足しようものなら、大変なことになりますからね。",
+        
+        "大門：その点はご心配いりません。",
+        "　：人工雪を作るメーカーにつきましては、めどが立っております。",
+        
+        "社長：費用の点はどうですか。",
+        "　：費用を惜しんでいるわけではないんですが、あまりかかりすぎるのもちょっと……。",
+        
+        "アナン：プロジェクトのキャッシュフロー予測につきましては、お手元の資料の5ページをご覧ください。",
+        "　：いくつかのシナリオがございます。",
+        "　：財務的には、それほど無理のない計画ではないかと思います。",
+        
+        "社長：そうですか。",
+        "　：では、この提案はお預かりして、関連部署の意見を聞いてみますが、基本的には、この線で話を進めてください。",
+        
+        "アナン：承知しました。",
+        "　：ありがとうございます。",
+    ],
+    "en": [//英語データ。　【注】日本語データと件数を同じにしてください。
+        "Anan:My name is Anan from Asian Consulting.",
+        ":I’d like to thank you for choosing to work with us.",
+        ":OK, without delay, let us make our proposal regarding your company’s expansion into Thailand.",
+        ":We will move forward in accordance with the outline in front of you.",
+        ":Please take a look at page two.",
+        ":First, let us report on the current situation of the amusement park in Thailand that your company is considering buying out.",
+
+        "Kuroda:I will give the report.",
+        ":At this amusement park, for the past few years the number of park guests has been decreasing, and their management is in dire straits.",
+        ":At this rate it is possible that they will go bankrupt.",
+        ":Currently, in order to restructure management, they are searching for sponsors.",
+        ":Please take a look at the next page.",
+        
+        "Company president:I see.",
+        ":So you mean for us to bring them the idea of a theme park based around the concept of snow.",
+        ":Enjoying snow at a theme park in Thailand.",
+        ":It’s new and it’s not bad.",
+        
+        "Anan:Thank you.",
+        ":In Thailand, when you say Japan, it means “snow.”",
+        ":According to a survey, the number one place in Japan that Thai want to visit is Hokkaido.",
+        ":So, we thought that we would like to propose a theme park which offers a sense of Hokkaido, where you can enjoy snow.",
+        ":This theme park will target couples and people bringing their families.",
+        ":People can go sledding, build snowmen...",
+        ":they can play as much as they want in the snow.",
+        ":Also, we’ll build a snow dome and sell sushi made using seafood from Hokkaido, matcha green tea flavored sweets, ice cream, and more.",
+        ":Of course guests can enjoy playing in the snow, but they can also savor the many different special flavors of Hokkaido.",
+        
+        "Company president:It sounds exciting!",
+        ":In terms of providing a steady supply of snow, what will we do?",
+        ":If there isn’t enough snow, then there will be trouble.",
+        
+        "Daimon:You don’t need to worry on that point.",
+        ":We have plans in line with a company that makes synthetic snow.",
+        
+        "Company president:What about cost?",
+        ":We are not necessarily being frugal about cost, but if it’s way too much, then...",
+        
+        "Anan:Regarding estimates about the project’s cash flow, please take a look at page five of the document in front of you.",
+        ":There are a number of different scenarios.",
+        ":Financially, I think that these are not especially impossible plans.",
+        
+        "Company president:I see.",
+        ":In that case, I will hold on to this proposal and ask for the opinions of the related departments. However, basically, please move the conversation forward along these lines.",
+        
+        "Anan:Understood.",
+        ":Thank you.",
+    ],
+    "mp3": [//音声データ。　【注】日本語データと件数を同じにしてください。
+        //本文会話はsx_h_xx.mp3を使います。hが目印です
+        "s2_h_01.mp3",
+        "s2_h_02.mp3",
+        "s2_h_03.mp3",
+        "s2_h_04.mp3",
+        "s2_h_05.mp3",
+        "s2_h_06.mp3",
+        "s2_h_07.mp3",
+        "s2_h_08.mp3",
+        "s2_h_09.mp3",
+        "s2_h_10.mp3",
+        "s2_h_11.mp3",
+        "s2_h_12.mp3",
+        "s2_h_13.mp3",
+        "s2_h_14.mp3",
+        "s2_h_15.mp3",
+        "s2_h_16.mp3",
+        "s2_h_17.mp3",
+        "s2_h_18.mp3",
+        "s2_h_19.mp3",
+        "s2_h_20.mp3",
+        "s2_h_21.mp3",
+        "s2_h_22.mp3",
+        "s2_h_23.mp3",
+        "s2_h_24.mp3",
+        "s2_h_25.mp3",
+        "s2_h_26.mp3",
+        "s2_h_27.mp3",
+        "s2_h_28.mp3",
+        "s2_h_29.mp3",
+        "s2_h_30.mp3",
+        "s2_h_31.mp3",
+        "s2_h_32.mp3",
+        "s2_h_33.mp3",
+        "s2_h_34.mp3",
+        "s2_h_35.mp3",
+        "s2_h_36.mp3",
+        "s2_h_37.mp3",
+        "s2_h_38.mp3",
+        "s2_h_39.mp3",
+    ]
+};
